@@ -12,6 +12,7 @@ public enum Direction {
     Direction(int dx, int dy) {
         this.dx = dx;
         this.dy = dy;
+
     }
 
     public Direction turnLeft() {
